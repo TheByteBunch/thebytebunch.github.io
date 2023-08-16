@@ -41,10 +41,21 @@ featured = true
 
 
 [Menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Code of Conduct"
+url = "/code_of_conduct/"
+weight = 2
+
 [[menu.main]]
 name = "Discord"
 url = "https://discord.gg/Gjuddsvq2C"
-weight = 1
+weight = 3
 
 [taxonomies]
 category = "categories"
