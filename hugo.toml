@@ -21,7 +21,7 @@ showOnlyFeaturedPost = true
 
 [params.meta]
 title = "The Byte Bunch"
-description = "The Byte Bunc is a Discord community dedicated to building, learning, and growing together."
+description = "The Byte Bunch is a Discord community dedicated to building, learning, and growing together."
 keywords = ["programming", "github", "discord"]
 
 [params.footer]
