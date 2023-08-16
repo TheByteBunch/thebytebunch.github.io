@@ -34,6 +34,14 @@ jobs:
     env:
       HUGO_VERSION: 0.115.4
     steps:
+      - name: Check account name
+        id: check_account_name
+        run: echo "::set-output name=account_name::$(basename -s .git $(git config --get remote.origin.url)) | cut -d/ -f4"
+        
+      - name: Conditional step
+        if: steps.check_account_name.outputs.account_name == 'thebytebunch'
+        run: |
+          echo "This step will only run if the account name is 'thebytebunch'"
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
