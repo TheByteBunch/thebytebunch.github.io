@@ -31,6 +31,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+
+    if: "startsWith(github.repository_owner, 'thebytebunch/')"
+
     env:
       HUGO_VERSION: 0.115.4
     steps:
