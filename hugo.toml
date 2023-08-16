@@ -12,7 +12,6 @@ mainMenuSvg = '''
 '''
 
 logoSvg = ''''''
-logoLabel = "Salinger Theme"
 
 mainMenuShowThemes = true
 showFooterOnHomepage = true
