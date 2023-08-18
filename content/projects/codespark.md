@@ -33,7 +33,7 @@ Innovate in Harmony: Collaborate side by side, merging your expertise and insigh
 
 ## Join Code Spark!
 
-(Coming soon)
+[Code Spark is now live on fly.io](http://codespark.fly.io).
 
 
 
